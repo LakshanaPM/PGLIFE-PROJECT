@@ -1,0 +1,72 @@
+.hero{
+  height: 100lvh;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.heading{
+  color: white;
+
+}
+.container{
+  
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  align-items:center;
+}
+.large-input {
+  width: 600px; /* Set the width */
+  height: 25px; /* Set the height */
+  padding: 10px; /* Add padding for better spacing */
+  font-size: 16px; /* Increase font size */
+  border: 2px solid #ccc; /* Optional: Add a border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.circle {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes it a circle */
+  overflow: hidden; /* Ensures the image stays within the circle */
+  display: inline-block;
+ 
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.circle:hover {
+  transform: scale(1.1); 
+}
+
+
+.circle img {
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+.circle a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none; 
+}
+.pgplace{
+  color: white;
+  background-color: black;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  align-items:center;
+}
